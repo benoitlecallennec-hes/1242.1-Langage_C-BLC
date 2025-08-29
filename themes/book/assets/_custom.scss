@@ -1,0 +1,50 @@
+/* You can add custom styles here. */
+
+// @import "plugins/numbered";
+a {
+    text-decoration: none;
+    color: #ff0000;
+    font-weight: 600;
+}
+a.active {
+    color: #ff0000;
+    font-weight: 600;
+  }
+
+  .book-menu a {
+    color: #ff0000;
+    font-weight: 600;
+  }
+
+  .book-menu a.active {
+    color: #ff0000;
+    font-weight: 600;
+  }
+
+  .markdown a:visited {
+    color: #ff0000;
+    font-weight: 600;
+  }
+
+  h1
+  {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 10px;
+    text-transform: uppercase;
+    }
+ 
+  h2
+  {
+    color: #FF0000;  
+  }
+  
+  .markdown h1, h2 {
+    font-weight: 600;
+  }
+
+  img[src$='#center']
+  {
+      display: block;
+      margin: 0.7rem auto;
+  }

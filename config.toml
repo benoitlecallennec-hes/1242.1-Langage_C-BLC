@@ -1,0 +1,14 @@
+baseURL = ""
+relativeurls = true
+languageCode = "fr"
+title = "HE-Arc 1242.1 Langage C"
+theme = "book"
+enableGitInfo = true
+bookSection = true
+BookMenuBundle = true
+
+[Taxonomies]
+  tag = "tags"
+
+[markup.goldmark.renderer]
+  unsafe= true
